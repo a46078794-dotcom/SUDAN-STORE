@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUDAN STORE | متجر شحن الألعاب والبطاقات</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,sans-serif}
+body{background:#0b1e3a;color:#fff;min-height:100vh}
+header{background:#081529;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:26px;font-weight:900;letter-spacing:1px}
+.logo span{color:#ffc107}
+header a{background:#25D366;color:#fff;padding:8px 16px;border-radius:20px;text-decoration:none;font-weight:bold;font-size:14px}
+.hero{text-align:center;padding:35px 15px 10px}
+.hero h1{font-size:32px}
+.hero h1 span{color:#ffc107}
+.hero p{color:#b0c4de;margin-top:8px}
+.categories{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;padding:20px;max-width:800px;margin:auto}
+.cat{background:#132e5a;border:2px solid #1e4a8a;border-radius:20px;padding:25px 10px;text-align:center;cursor:pointer}
+.cat:hover{border-color:#ffc107;transform:scale(1.02)}
+.cat .icon{font-size:45px}
+.cat h2{margin:10px 0 5px;font-size:20px}
+.cat p{color:#b0c4de;font-size:13px}
+.cat.active{border-color:#ffc107;background:#1a3a6e}
+.section{display:none;max-width:800px;margin:auto;padding:0 20px 30px}
+.section.show{display:block}
+.section h2{text-align:center;margin:15px 0;color:#ffc107}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{background:#fff;color:#111;border-radius:18px;padding:20px 12px;text-align:center}
+.card .big{font-size:22px;font-weight:900}
+.card .small{color:#666;font-size:13px;margin:5px 0}
+.card .price{color:#0b7a3e;font-size:19px;font-weight:900;margin:10px 0}
+.buy{display:block;background:#25D366;color:#fff;text-decoration:none;padding:12px;border-radius:12px;font-weight:900;font-size:15px}
+.buy:hover{background:#1da851}
+footer{text-align:center;padding:20px;color:#8aa0bd;font-size:13px}
+@media(max-width:500px){.hero h1{font-size:26px}.logo{font-size:20px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">SUDAN <span>STORE</span></div>
+  <a href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20استفسر" target="_blank">💬 واتساب</a>
+</header>
+
+<div class="hero">
+  <h1>اشحن لعبتك في <span>ثواني ⚡</span></h1>
+  <p>اختار اللعبة أو البطاقة - اضغط اشتري - بيحولك للواتساب طوالي</p>
+</div>
+
+<div class="categories">
+  <div class="cat" onclick="show('ff',this)"><div class="icon">💎</div><h2>Free Fire</h2><p>جواهر + عضويات</p></div>
+  <div class="cat" onclick="show('pubg',this)"><div class="icon">🎮</div><h2>PUBG Mobile</h2><p>شدات</p></div>
+  <div class="cat" onclick="show('google',this)"><div class="icon">▶️</div><h2>Google Play</h2><p>بطاقات قوقل</p></div>
+  <div class="cat" onclick="show('visa',this)"><div class="icon">💳</div><h2>Visa</h2><p>بطاقات فيزا</p></div>
+</div>
+
+<!-- FREE FIRE -->
+<div id="ff" class="section show">
+  <h2>💎 Free Fire - جواهر</h2>
+  <div class="grid">
+    <div class="card"><div class="big">110 جوهرة</div><div class="small">Free Fire</div><div class="price">SDG 6,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20110%20جوهرة%20فري%20فاير%20بـ%206000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">220 جوهرة</div><div class="small">Free Fire</div><div class="price">SDG 12,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20220%20جوهرة%20فري%20فاير%20بـ%2012000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">530 جوهرة</div><div class="small">Free Fire</div><div class="price">SDG 30,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20530%20جوهرة%20فري%20فاير%20بـ%2030000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">1080 جوهرة</div><div class="small">Free Fire</div><div class="price">SDG 60,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%201080%20جوهرة%20فري%20فاير%20بـ%2060000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">عضوية أسبوعية</div><div class="small">Free Fire</div><div class="price">SDG 10,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20عضوية%20اسبوعية%20فري%20فاير%20بـ%2010000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">عضوية شهرية</div><div class="small">Free Fire</div><div class="price">SDG 55,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20عضوية%20شهرية%20فري%20فاير%20بـ%2055000" target="_blank">اشتري الآن 🛒</a></div>
+  </div>
+</div>
+
+<!-- PUBG -->
+<div id="pubg" class="section">
+  <h2>🎮 PUBG - شدات</h2>
+  <div class="grid">
+    <div class="card"><div class="big">60 شدة</div><div class="small">PUBG Mobile</div><div class="price">SDG 5,500</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%2060%20شدة%20ببجي%20بـ%205500" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">120 شدة</div><div class="small">PUBG Mobile</div><div class="price">SDG 11,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20120%20شدة%20ببجي%20بـ%2011000" target="_blank">اشتري الآن 🛒</a></div>
+  </div>
+</div>
+
+<!-- GOOGLE PLAY -->
+<div id="google" class="section">
+  <h2>▶️ Google Play</h2>
+  <div class="grid">
+    <div class="card"><div class="big">بطاقة 1$</div><div class="small">Google Play</div><div class="price">SDG 6,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20قوقل%20بلاي%201%20دولار%20بـ%206000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 2$</div><div class="small">Google Play</div><div class="price">SDG 12,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20قوقل%20بلاي%202%20دولار%20بـ%2012000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 5$</div><div class="small">Google Play</div><div class="price">SDG 30,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20قوقل%20بلاي%205%20دولار%20بـ%2030000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 10$</div><div class="small">Google Play</div><div class="price">SDG 60,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20قوقل%20بلاي%2010%20دولار%20بـ%2060000" target="_blank">اشتري الآن 🛒</a></div>
+  </div>
+</div>
+
+<!-- VISA -->
+<div id="visa" class="section">
+  <h2>💳 Visa</h2>
+  <div class="grid">
+    <div class="card"><div class="big">بطاقة 1$</div><div class="small">Visa</div><div class="price">SDG 6,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20فيزا%201%20دولار%20بـ%206000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 2$</div><div class="small">Visa</div><div class="price">SDG 12,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20فيزا%202%20دولار%20بـ%2012000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 5$</div><div class="small">Visa</div><div class="price">SDG 30,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20فيزا%205%20دولار%20بـ%2030000" target="_blank">اشتري الآن 🛒</a></div>
+    <div class="card"><div class="big">بطاقة 10$</div><div class="small">Visa</div><div class="price">SDG 60,000</div><a class="buy" href="https://wa.me/249993832697?text=سلام%20عليكم%20داير%20اشتري%20بطاقة%20فيزا%2010%20دولار%20بـ%2060000" target="_blank">اشتري الآن 🛒</a></div>
+  </div>
+</div>
+
+<footer>SUDAN STORE © 2026 - الدفع عبر بنكك / واتساب - 0993832697</footer>
+
+<script>
+function show(id, el){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('show'));
+  document.getElementById(id).classList.add('show');
+  document.querySelectorAll('.cat').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById(id).scrollIntoView({behavior:'smooth'});
+}
+</script>
+</body>
+</html>
